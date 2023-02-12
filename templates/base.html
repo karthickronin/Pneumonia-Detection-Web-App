@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pneumonia Detection</title>
+    <link
+      href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="../static/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >Example for an Pnuemonia Detection Web App frontEnd Design</a
+        >
+      </div>
+    </nav>
+    <div class="container">
+      <div id="content" style="margin-top: 2em">
+        {% block content %}{% endblock %}
+      </div>
+    </div>
+    <div class="position-fixed">
+      <img
+        src="../static/img/pneumonia-xray.jpeg"
+        alt="Pneumonia X-ray"
+        class="img-fluid"
+      />
+      <p id="p2">
+        This is a sample Chest Radiograph used by doctors and specialists around
+        the world as a diagnostic step to identify pneunonia
+      </p>
+    </div>
+  </body>
+
+  <footer>
+    <script src="../static/js/main.js" type="text/javascript"></script>
+  </footer>
+</html>
