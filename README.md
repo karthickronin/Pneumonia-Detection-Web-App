@@ -6,5 +6,6 @@ The project also includes the Jupyter Notebook file where the training of the mo
 
 ->To run the project, Install all dependencies using requirements.txt
     ->pip3 install requirements.txt
+    
 ->The dataset used in Training, Testing and Validation is taken through kaggle
   You can download the same from => https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
