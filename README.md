@@ -9,3 +9,5 @@ The project also includes the Jupyter Notebook file where the training of the mo
     
 ->The dataset used in Training, Testing and Validation is taken through kaggle
   You can download the same from => https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+  
+  Rename the dataset folder to data for the .ipynb file to run
